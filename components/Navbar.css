@@ -1,0 +1,16 @@
+.navbar-link_general {
+  text-decoration: none;
+  color: inherit;
+  color: rgba(255, 255, 255, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 24px;
+  transition: all 0.4s;
+}
+
+.navbar-link_general:hover {
+  color: rgba(255, 255, 255, 0.419);
+}
+
+/* TODO make the menus in phone width to be aligned */

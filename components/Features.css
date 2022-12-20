@@ -1,0 +1,114 @@
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+  margin-top: 10rem;
+  margin-left: 6.4rem;
+  margin-right: 6.4rem;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.feature-container {
+  background-color: #333;
+  border-radius: 11px;
+  padding: 2rem;
+  transition: all 0.4s;
+  overflow: hidden;
+  color: rgb(202, 202, 202);
+}
+
+.feature-container:hover {
+  transform: scale(1.1);
+}
+
+.feature-icon {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #fcc419;
+  color: #999;
+  border-radius: 100px;
+}
+.feature-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  background-color: #333;
+  padding: 1.2rem;
+}
+
+.feature-text {
+  background-color: #333;
+  padding: 1.2rem;
+}
+
+.icon1 {
+  background-color: #f59f00;
+}
+
+.icon2 {
+  background-color: #74b816;
+}
+
+.icon3 {
+  background-color: #37b24d;
+}
+
+.icon4 {
+  background-color: #1098ad;
+}
+
+.icon5 {
+  background-color: #7048e8;
+}
+
+.icon6 {
+  background-color: #4263eb;
+}
+.icon7 {
+  background-color: #ae3ec9;
+}
+
+.icon8 {
+  background-color: #d6336c;
+}
+
+.icons_general {
+  width: 50px;
+  height: 70px;
+  background-color: inherit;
+}
+
+.front-icon {
+  position: absolute;
+  width: 3.2rem;
+  height: 3.2rem;
+  top: 0;
+  left: 0;
+  background-color: none;
+  transform: translate(-160%, 660%);
+  cursor: pointer;
+}
+
+.back-icon {
+  position: absolute;
+  width: 3.2rem;
+  height: 3.2rem;
+  top: 0;
+  right: 0;
+  transform: translate(160%, 660%);
+  cursor: pointer;
+}
+
+.icons-container_general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
